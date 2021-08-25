@@ -1,11 +1,37 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Flunt/2.0.5": {
+      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+      "type": "package",
+      "path": "flunt/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Flunt >= 2.0.5"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vinyl\\.nuget\\packages\\": {}
@@ -13,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
       "projectName": "CodeTour.Shared",
-      "projectPath": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
+      "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
       "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Shared\\obj\\",
+      "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +71,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

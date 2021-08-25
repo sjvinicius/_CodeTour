@@ -1,17 +1,81 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj": {}
+    "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj": {
+    "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\CodeTour.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
-        "projectName": "CodeTour.Test",
-        "projectPath": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
+        "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\CodeTour.Domain.csproj",
+        "projectName": "CodeTour.Domain",
+        "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\CodeTour.Domain.csproj",
         "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\obj\\",
+        "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj": {
+                "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
+        "projectName": "CodeTour.Shared",
+        "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
+        "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +104,74 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
+        "projectName": "CodeTour.Test",
+        "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
+        "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\CodeTour.Domain.csproj": {
+                "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\CodeTour.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.1, )"

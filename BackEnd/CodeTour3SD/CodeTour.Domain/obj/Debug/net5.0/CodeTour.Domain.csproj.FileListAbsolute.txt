@@ -1,0 +1,15 @@
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\bin\Debug\net5.0\CodeTour.Shared.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.csprojAssemblyReference.cache
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.AssemblyInfoInputs.cache
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.AssemblyInfo.cs
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\bin\Debug\net5.0\CodeTour.Domain.deps.json
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\bin\Debug\net5.0\CodeTour.Domain.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\bin\Debug\net5.0\ref\CodeTour.Domain.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\bin\Debug\net5.0\CodeTour.Domain.pdb
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\bin\Debug\net5.0\CodeTour.Shared.pdb
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.csproj.CopyComplete
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\ref\CodeTour.Domain.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\3º Semestre\Projetos\_CodeTour\BackEnd\CodeTour3SD\CodeTour.Domain\obj\Debug\net5.0\CodeTour.Domain.pdb

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y24kpmY2II9sdS2x3CaKLvcbEFX+Nlk/cBBBBFumQNDt2RtewD8s6nIyJ2YKwVRbPHiEKsdcDAzUPblqhYUJFQ==",
+  "dgSpecHash": "Y0bT0c2AjMuak1mqagzGst2HKwTeQKBjL/PF7FKbyUtgAqG14cI+/BLS/xY3HHbBLhekMiQZZVIBlUxm+PyUqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Shared\\CodeTour.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinyl\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -8,6 +8,15 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Flunt/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/16.7.1": {
         "type": "package",
         "compile": {
@@ -1648,6 +1657,33 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "CodeTour.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CodeTour.Shared": "1.0.0",
+          "Flunt": "2.0.5"
+        },
+        "compile": {
+          "bin/placeholder/CodeTour.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeTour.Domain.dll": {}
+        }
+      },
+      "CodeTour.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Flunt": "2.0.5"
+        },
+        "compile": {
+          "bin/placeholder/CodeTour.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeTour.Shared.dll": {}
+        }
       }
     }
   },
@@ -1682,6 +1718,19 @@
         "coverlet-icon.png",
         "coverlet.collector.1.3.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Flunt/2.0.5": {
+      "sha512": "CMgq8FUYjkHzyZT3PhkUwZyy79mudON+EL4b0SAT7BfIOJ2CNypwnbdA0cPHAM2CYQfO2L8ubNJCiBHQOIv2pA==",
+      "type": "package",
+      "path": "flunt/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
       ]
     },
     "Microsoft.CodeCoverage/16.7.1": {
@@ -5611,10 +5660,22 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "CodeTour.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CodeTour.Domain/CodeTour.Domain.csproj",
+      "msbuildProject": "../CodeTour.Domain/CodeTour.Domain.csproj"
+    },
+    "CodeTour.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CodeTour.Shared/CodeTour.Shared.csproj",
+      "msbuildProject": "../CodeTour.Shared/CodeTour.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CodeTour.Domain >= 1.0.0",
+      "Flunt >= 2.0.5",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
@@ -5627,11 +5688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
+      "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
       "projectName": "CodeTour.Test",
-      "projectPath": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
+      "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\CodeTour.Test.csproj",
       "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinyl\\source\\repos\\CodeTour3SD\\CodeTour.Test\\obj\\",
+      "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5647,7 +5708,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\CodeTour.Domain.csproj": {
+              "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\3º Semestre\\Projetos\\_CodeTour\\BackEnd\\CodeTour3SD\\CodeTour.Domain\\CodeTour.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5660,6 +5725,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.7.1, )"
