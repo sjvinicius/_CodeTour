@@ -15,7 +15,7 @@ namespace CodeTour.Test
         public void UsuarioValido()
         {
 
-            Usuario usuario = new Usuario(
+            Usuarios usuario = new Usuarios(
 
                 "Teste",
                 "teste@gmail.com",
@@ -32,7 +32,7 @@ namespace CodeTour.Test
         public void UsuarioInvalidoNome()
         {
 
-            Usuario usuario = new Usuario(
+            Usuarios usuario = new Usuarios(
 
                 "",
                 "teste@gmail.com",
@@ -49,7 +49,7 @@ namespace CodeTour.Test
         public void UsuarioInvalidoEmail()
         {
 
-            Usuario usuario = new Usuario(
+            Usuarios usuario = new Usuarios(
 
                 "Teste",
                 "teste@",
@@ -66,7 +66,7 @@ namespace CodeTour.Test
         public void UsuarioInvalidoSenha()
         {
 
-            Usuario usuario = new Usuario(
+            Usuarios usuario = new Usuarios(
 
                 "Teste",
                 "teste@",
